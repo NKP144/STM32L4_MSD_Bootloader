@@ -1,0 +1,8 @@
+0x0800 0000 - 0x0800 FFFF  = 64k   bootloader 	  32 pages    (2K in page) (BOOT_MEM)
+
+0x0801 0000 - 0x0804 1FFF  = 200k  user_memory    100 pages                (USER_MEM)
+0x0804 2000 - 0x0807 3FFF  = 200k  msd_memory     100 pages                (MSD_MEM)
+0x0807 4000 - 0x0807 FFFF  = 48k   other_memory   24 pages                 (OTHER_MEM)
+
+
+
